@@ -84,7 +84,7 @@ you would use elsewhere, with two differences that matter for you.
 python tutor.py --check                       test your setup
 python tutor.py                               start a conversation
 python tutor.py "how do I read a semicolon csv"
-python tutor.py --log CONVERSATION.md         write the log where you want it
+python tutor.py --log elsewhere/CONVERSATION.md   only to write it somewhere else
 python tutor.py --models                      what this endpoint offers
 ```
 
