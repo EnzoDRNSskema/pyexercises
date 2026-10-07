@@ -180,3 +180,42 @@ Which function keeps the original spacing between words?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-07 11:21, in .
+
+**Me:** In my for loop exercise, how can enumerate() give me both the position and the value of each item in a list?
+
+**Tutor:**
+
+Enumerating a list gives you both the index (position) and the value of each item.
+
+```python
+# Example with a list of fake campaign names
+campaigns = ["summer_sale", "holiday_promo", "black_friday"]
+
+# TODO: Use enumerate() to print both the position and the campaign name
+for ???, ??? in enumerate(campaigns):
+    print(f"Position {???}: {???}")
+```
+
+Which built-in function provides the delimiter when reading a CSV file?
+
+---
+## 2026-10-07 11:21, in .
+
+**Me:** In my while loop exercise, how do strip() and lower() help accept answers like YES, yes and answers with extra spaces?
+
+**Tutor:**
+
+String cleaning helpers.
+
+`strip()` removes leading and trailing spaces.
+`lower()` converts the whole string to lowercase.
+
+```python
+answer = input("Continue? ").strip().lower()
+# TODO: use answer in a while loop condition
+```
+
+Which method removes spaces at the start or end of the string?
