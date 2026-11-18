@@ -219,3 +219,55 @@ answer = input("Continue? ").strip().lower()
 ```
 
 Which method removes spaces at the start or end of the string?
+
+---
+## 2026-11-18 12:52, in .
+
+**Me:** Why do we use append mode when saving data to a CSV file?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-18 12:52, in .
+
+**Me:** Why do we use split() to clean names in a text file?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-18 12:53, in .
+
+**Me:** In exercise 7.0, my Python code uses open(file_path, "a"). Can you explain what "a" does?
+
+**Tutor:**
+
+The open() mode argument "a" stands for append.
+
+```python
+# TODO: open the file in append mode
+with open("toy_log.txt", "a") as log_file:
+    log_file.write("new line of text\n")
+```
+
+What is the difference between "a" and "w" modes?
+
+---
+## 2026-11-18 12:53, in .
+
+**Me:** In exercise 7.1, my Python code uses line.split(). Can you explain what this function does?
+
+**Tutor:**
+
+String method split() breaks a line into a list of words.
+
+```python
+line = "alpha,beta,gamma"
+# TODO: split the line into words
+words = line.split()
+```
+
+Which separator does split() use by default?
